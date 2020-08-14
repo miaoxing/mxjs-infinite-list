@@ -52,7 +52,7 @@ export default class InfiniteList extends React.Component {
     }
 
     return this.props.render({
-      data: this.state.data
+      data: this.state.data,
     });
   }
 
