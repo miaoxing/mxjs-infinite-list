@@ -23,7 +23,7 @@ export default class InfiniteList extends React.Component {
     this.setState({loading: true});
 
     $.get(this.getUrl(), {params: {page: page}}).then(ret => {
-      if (ret.code !== 1) {
+      if (ret.isErr()) {
         return $.ret(ret);
       }
 
