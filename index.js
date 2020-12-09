@@ -30,7 +30,7 @@ export default class InfiniteList extends React.Component {
       let data = this.state.data.concat(ret.data);
       this.setState({
         data,
-        hasMore: ret.page < (ret.records / ret.rows),
+        hasMore: ret.page < (ret.total / ret.limit),
         loading: false,
       });
     });
