@@ -1,6 +1,7 @@
 import React from 'react';
 import InfiniteScroll from 'react-infinite-scroller';
 import $ from 'miaoxing';
+import PropTypes from 'prop-types';
 
 export default class InfiniteList extends React.Component {
   static defaultProps = {
@@ -11,6 +12,16 @@ export default class InfiniteList extends React.Component {
     className: null,
     renderItem: null,
     render: null,
+  };
+
+  static propTypes = {
+    url: PropTypes.string,
+    emptyMessage: PropTypes.node,
+    useWindow: PropTypes.bool,
+    element: PropTypes.string,
+    className: PropTypes.string,
+    renderItem: PropTypes.func,
+    render: PropTypes.render,
   };
 
   state = {
