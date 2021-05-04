@@ -21,7 +21,7 @@ export default class InfiniteList extends React.Component {
     element: PropTypes.string,
     className: PropTypes.string,
     renderItem: PropTypes.func,
-    render: PropTypes.render,
+    render: PropTypes.func,
   };
 
   state = {
