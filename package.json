@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/infinite-list",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -14,10 +14,10 @@
     "react": "^16.13.1",
     "prop-types": "^15.7.2",
     "react-infinite-scroller": "^1.2.0",
-    "miaoxing": "^0.2.3"
+    "miaoxing": "^0.2.4"
   },
   "devDependencies": {
-    "@miaoxing/dev": "^6.4.0",
+    "@miaoxing/dev": "^7.0.0",
     "@testing-library/react": "^11.2.6"
   },
   "ciDependencies": {
