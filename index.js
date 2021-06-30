@@ -33,7 +33,7 @@ export default class InfiniteList extends React.Component {
   handleLoadMore(page) {
     this.setState({loading: true});
 
-    $.get(this.getUrl(), {params: {page: page}}).then(ret => {
+    $.get(this.getUrl(), {params: {page: page}}).then(({ret}) => {
       if (ret.isErr()) {
         return $.ret(ret);
       }
