@@ -1,9 +1,9 @@
-import React from 'react';
+import { Component } from 'react';
 import InfiniteScroll from 'react-infinite-scroller';
 import $ from 'miaoxing';
 import PropTypes from 'prop-types';
 
-export default class InfiniteList extends React.Component {
+export default class InfiniteList extends Component {
   static defaultProps = {
     url: '',
     emptyMessage: <div className="list-empty">暂无记录</div>,
