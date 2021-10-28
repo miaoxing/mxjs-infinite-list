@@ -1,3 +1,24 @@
+# [0.3.0](https://github.com/miaoxing/mxjs-infinite-list/compare/v0.2.2...v0.3.0) (2021-10-28)
+
+
+### Features
+
+* `react` 依赖移到 `peerDependencies` 中，开发依赖使用 `react` 17 ([e797dca](https://github.com/miaoxing/mxjs-infinite-list/commit/e797dcaeedb3c5e2a03ab93f374e7ffec5d80262))
+
+
+### BREAKING CHANGES
+
+* `react` 依赖移到 `peerDependencies` 中，开发依赖使用 `react` 17
+
+
+
+
+
+### Dependencies
+
+* **miaoxing:** upgrade from `0.2.5` to `0.3.0`
+* **@miaoxing/dev:** upgrade from `7.0.1` to `8.0.0`
+
 ## [0.2.2](https://github.com/miaoxing/mxjs-infinite-list/compare/v0.2.1...v0.2.2) (2021-05-12)
 
 
