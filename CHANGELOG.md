@@ -1,3 +1,10 @@
+## [0.3.14](https://github.com/miaoxing/mxjs-infinite-list/compare/v0.3.13...v0.3.14) (2024-01-31)
+
+
+### Features
+
+* 更新 `react` 支持 18 ([2083ebb](https://github.com/miaoxing/mxjs-infinite-list/commit/2083ebb52eb9293cd21b8938d0fadc48bf1b718a))
+
 ## [0.3.13](https://github.com/miaoxing/mxjs-infinite-list/compare/v0.3.12...v0.3.13) (2024-01-08)
 
 
