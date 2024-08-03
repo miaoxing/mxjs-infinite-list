@@ -1,3 +1,14 @@
+## [0.3.20](https://github.com/miaoxing/mxjs-infinite-list/compare/v0.3.19...v0.3.20) (2024-08-03)
+
+
+
+
+
+### Dependencies
+
+* **miaoxing:** upgrade from `0.4.17` to `0.4.18`
+* **@miaoxing/dev:** upgrade from `9.1.2` to `9.1.3`
+
 ## [0.3.19](https://github.com/miaoxing/mxjs-infinite-list/compare/v0.3.18...v0.3.19) (2024-08-02)
 
 
