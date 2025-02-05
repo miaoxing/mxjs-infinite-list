@@ -1,3 +1,10 @@
+## [0.3.24](https://github.com/miaoxing/mxjs-infinite-list/compare/v0.3.23...v0.3.24) (2025-02-05)
+
+
+### Bug Fixes
+
+* 限制 react 版本低于 19，避免测试失败 ([1c4a01c](https://github.com/miaoxing/mxjs-infinite-list/commit/1c4a01c7d89423561fb28d0909d12b099f49ff48))
+
 ## [0.3.23](https://github.com/miaoxing/mxjs-infinite-list/compare/v0.3.22...v0.3.23) (2024-12-31)
 
 
